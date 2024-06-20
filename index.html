@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duo Studio</title>
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- made it outside the main div as locomotive has hijacked scroll and then fixed position will not work -->
+    <div id="cursor"></div>
+
+    <div id="nav">
+      <img
+        src="https://d33wubrfki0l68.cloudfront.net/439bf938233c24af021ffe6d206cd42f546e1143/ff4ed/assets/logo.svg"
+        alt=""
+      />
+      <div id="nav-part2">
+        <h4 nav-name="Home">Home</h4>
+        <h4 nav-name="Work">Work</h4>
+        <h4 nav-name="Studio">Studio</h4>
+        <h4 nav-name="Contact">Contact</h4>
+      </div>
+      <div id="nav-part3">
+        <div id="circle"></div>
+      </div>
+    </div>
+
+    <!-- made it outside the main div as locomotive has hijacked scroll and then fixed position will not work -->
+    <div id="nav-hover">
+      <div>
+        <h1>Home Home Home Home Home Home Home</h1>
+        <h1>Work Work Work Work Work Work Work</h1>
+      </div>
+    </div>
+
+    <div id="main">
+      <div id="page1">
+        <div class="text">
+          <h1>Digitally crafted</h1>
+        </div>
+
+        <div class="text">
+          <h2>brand experiences</h2>
+        </div>
+        
+        <div id="vid-text">
+          <div id="vid-text-up">
+            <h5>A CREATIVE DIGITAL AGENCY</h5>
+            <h5>BASED IN WASHINGTON, DC</h5>
+          </div>
+          <video autoplay muted loop src="duo-studio-intro-vid.mp4"></video>
+        </div>
+      </div>
+
+      <div id="page2">
+        <h1>We are Duo Studio,</h1>
+        <div id="page2-container">
+          <div id="page2-left">
+            <h2>A CREATIVE COLLECTIVE MADE TO UNLOCK YOUR BRAND’S POTENTIAL</h2>
+          </div>
+          <div id="page2-right">
+            <p>
+              We weave together bold strategy and creative execution to produce
+              thought-provoking digital experiences. We take a highly
+              personalized approach to delivering branding, web design, and
+              content marketing solutions. Born in the DC area - now serving
+              clients worldwide.
+            </p>
+            <button>About us</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="page3">
+        <h1>Selected Works</h1>
+        <div id="page3-part1">
+          <div id="page3-part1-img">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/aa3d2ff66de5f16336bd94fd68c3c2ce61e29f68/d5064/assets/home/home-casestudy-mgny.webp"
+              alt=""
+            />
+            <div class="bottom-text">
+              <h4>MGNY</h4>
+              <h5>Brand Strategy, Website, Creative Direction, Illustration</h5>
+            </div>
+          </div>
+          <div id="page3-part1-vid">
+            <video autoplay loop muted src="./selected-works-vid1.mp4"></video>
+            <div class="bottom-text">
+              <h4>MadeGood</h4>
+              <h5>Brand Strategy, Website</h5>
+            </div>
+          </div>
+        </div>
+
+        <div id="page3-part2">
+          <div id="page3-part2-vid">
+            <video autoplay loop muted src="./selected-works-vid2.mp4"></video>
+            <div class="bottom-text">
+              <h4>Cruefilms</h4>
+              <h5>Brand Strategy, Website</h5>
+            </div>
+          </div>
+          <div id="page3-part2-img">
+            <img
+              src="https://web.archive.org/web/20240528110509im_/https://duo-studio.co/assets/home/home-casestudy-finturity.webp"
+              alt=""
+            />
+            <div class="bottom-text">
+              <h4>Finturity</h4>
+              <h5>Brand Strategy, Brand Identity, Website, Graphic Design</h5>
+            </div>
+          </div>
+        </div>
+
+        <div id="page3-part3">
+          <h3>VIEW ALL PROJECTS</h3>
+          <div id="discover-circle">DISCOVER</div>
+        </div>
+      </div>
+
+      <div id="page4">
+        <p>
+          DESIGNED TO BRING OUT <br />
+          THE TRUTH OF YOUR BRAND
+        </p>
+
+        <div class="elem">
+          <img id="img1" src="./images/page4-img1.webp" alt="No Image" />
+          <div class="text">
+            <h1>Strategy</h1>
+            <h1>Strategy</h1>
+          </div>
+          <img id="img2" src="./images/page4-img2.webp" alt="" />
+        </div>
+
+        <div class="elem">
+          <img id="img3" src="./images/page4-img3.webp" alt="No Image" />
+          <div class="text">
+            <h1>Identity</h1>
+            <h1>Identity</h1>
+          </div>
+          <img id="img4" src="./images/page4-img4.webp" alt="" />
+        </div>
+
+        <div class="elem">
+          <img id="img5" src="./images/page4-img5.webp" alt="No Image" />
+          <div class="text">
+            <h1>Experience</h1>
+            <h1>Experience</h1>
+          </div>
+          <img id="img6" src="./images/page4-img6.webp" alt="" />
+        </div>
+      </div>
+
+      <div id="page5">
+        <div id="page5-inner">
+          <div class="row">
+            <h1><span>MENTIONS</span> <span>CLIENTS</span></h1>
+            <p>VIEW CLIENTS</p>
+          </div>
+
+          <div class="row" data-image="./images/home-mentions-verizon.webp">
+            <h4>Verizon</h4>
+            <p><span>Small Business Feature</span> <span>2021</span></p>
+          </div>
+
+          <div
+            class="row"
+            data-image="./images/home-mentions-awwwards-honorablemention.webp"
+          >
+            <h4>Awwwards</h4>
+            <p><span>Honorable Mention</span> <span>2023</span></p>
+          </div>
+
+          <div
+            class="row"
+            data-image="./images/home-mentions-awwwards-mobile.webp"
+          >
+            <h4>Awwards</h4>
+            <p><span>Mobile Excellence</span> <span>2020</span></p>
+          </div>
+
+          <div class="row" data-image="./images/home-mentions-mindsparkle.webp">
+            <h4>Mindsparkle Mag</h4>
+            <p><span>Site of the Day</span> <span>2020</span></p>
+          </div>
+
+          <div class="row" data-image="./images/home-mentions-orpetron.webp">
+            <h4>Orpetron</h4>
+            <p><span>Site of the Day</span> <span>2020</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <div id="upper">
+          <div id="footer-text">
+            <h1>LET'S CREATE AN EXPERIENCE AS</h1>
+            <h1>REMARKABLE AS YOUR BUSINESS</h1>
+          </div>
+
+          <div class="circle">
+            <p>Get in Touch</p>
+          </div>
+        </div>
+
+        <div id="lower">
+          <div id="left">
+            <h4>Don't miss out. Stay in the loop.</h4>
+            <input type="email" name="email" placeholder="Your Email" />
+            <button>Subscribe</button>
+            <p>@2024 Jasjeet Singh Mann | Privacy Policy</p>
+          </div>
+          <h1>jasjeet_mann@yahoo.com</h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
