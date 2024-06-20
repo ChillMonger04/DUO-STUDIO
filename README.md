@@ -1,6 +1,14 @@
 # DUO STUDIO
 
 ## 📸 Glimpses of the DUO Studio Frontend Clone
+<img width="1440" alt="sc1" src="https://github.com/ChillMonger04/DUO-STUDIO/assets/101706106/a873856e-4435-4cb1-8f35-9ff07560e08f">
+<img width="1440" alt="sc2" src="https://github.com/ChillMonger04/DUO-STUDIO/assets/101706106/9688e1e2-5120-4320-a0d8-01057d972d25">
+<img width="1437" alt="sc3" src="https://github.com/ChillMonger04/DUO-STUDIO/assets/101706106/0c2ec4bc-b191-4476-b09a-403bef353665">
+<img width="1439" alt="sc4" src="https://github.com/ChillMonger04/DUO-STUDIO/assets/101706106/5d25365f-a8d6-4bc3-98c1-05b3f26491d0">
+<img width="1440" alt="sc5" src="https://github.com/ChillMonger04/DUO-STUDIO/assets/101706106/ef3c7c2f-c511-4d40-835f-5a107d3d1180">
+<img width="1440" alt="sc6" src="https://github.com/ChillMonger04/DUO-STUDIO/assets/101706106/24156ebd-d4de-42f4-a148-e8b46c18bc30">
+<img width="1440" alt="sc7" src="https://github.com/ChillMonger04/DUO-STUDIO/assets/101706106/bc2f2c27-af48-4316-85cc-519a91ea99f7">
+<img width="1440" alt="sc8" src="https://github.com/ChillMonger04/DUO-STUDIO/assets/101706106/27ea19b7-e8b1-4d8d-ae8c-cf7c59e4fd4d">
 
 ## 🌟 Project Overview:
 DUO Studio (https://duo-studio.co/) is an Awwwards-winning website, celebrated for its simplicity and well-designed structure that encompasses all essential design principles. Inspired by its design excellence, I set out to create a frontend clone of this website, aiming to replicate its clean and sophisticated UI/UX features and animations.
